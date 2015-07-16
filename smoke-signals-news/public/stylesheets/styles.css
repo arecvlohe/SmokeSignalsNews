@@ -1,0 +1,89 @@
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+a:link {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.5);
+}
+
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.post-list {
+  display: flex;
+  align-items: baseline;
+  margin: 1.5em;
+}
+
+.post-list span {
+  margin-right: 10px;
+}
+
+.post-list .link {
+  margin-right: 10px;
+}
+
+.post-list i:hover {
+  cursor: pointer;
+}
+
+.link {
+  font-size: 30px;
+}
+
+.add-post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-post-form input {
+  padding: 1rem 0;
+  padding-left: .5rem;
+  border-radius: .5rem;
+}
+
+
+.add-post-form button {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 20%;
+  padding: 1rem 2.5rem;
+  border-radius: 2.5rem;
+  border: none;
+}
+
+.post-comment-container {
+  margin: 20px;
+}
+
+.add-comment-form input {
+  margin: 10px 0;
+  width: 75%;
+  padding: 1em .5em;
+}
+
+.add-comment-form button {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 20%;
+  padding: 1rem 2.5rem;
+  border-radius: 2.5rem;
+  border: none;
+}
